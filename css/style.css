@@ -4,17 +4,65 @@
     box-sizing: border-box;
 }
 
+header{
+    max-width: 800px;
+    margin: 0 auto; 
+}
+
+h2, h3{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h4{
+    color: lightblue;
+}
+
 .container{
     max-width: 800px;
     margin: 0 auto;
+    padding: 10px;
+    
 }
+
+.box{
+    border: 2px solid white;
+    height: 100px;
+    float: left;
+    width: calc(100%/3);
+    background-color: black
+    
+}
+
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
 
 h1{
     font-family: 'Rowdies', cursive;
     color: deeppink;
     text-align: center;
+    padding-top: 15px;
 }
 
 p{
     padding-top: 40px;
+}
+
+.box-img{
+    float: left;
+    width: 30%;
+}
+
+.box-txt{
+    float: left;
+    width: 70%;
+}
+
+.img{
+    width: 100%;
 }
