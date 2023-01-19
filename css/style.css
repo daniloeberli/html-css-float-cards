@@ -38,7 +38,7 @@ a{
 }
 
 .box{
-    border: 2px solid white;
+    border: 5px solid white;
     float: left;
     width: calc(100%/3);
     background-color: black;
@@ -63,6 +63,8 @@ h1{
 
 p{
     padding-top: 40px;
+    font-family: 'Rowdies', cursive;
+    font-size: small;
 }
 
 .box-img{
