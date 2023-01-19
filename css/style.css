@@ -15,16 +15,19 @@ h2, h3{
 
 h2{
     font-size: small;
+    margin: 2px 0px 0px 2px ;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h3{
     font-size: smaller;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 2px 0px 0px 2px ;
 }
 
-h4{
+a{
     color: lightblue;
+    margin: 2px 0px 0px 2px ;
 }
 
 .container{
